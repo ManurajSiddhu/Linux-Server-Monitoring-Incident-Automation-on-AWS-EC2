@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# this is for check all service in a single script run 
+#it is used to perform crontab task
+
+
 echo "===== SYSTEM HEALTH CHECK =====" >> ../reports/daily_report.txt
 date >> ../reports/daily_report.txt
 
