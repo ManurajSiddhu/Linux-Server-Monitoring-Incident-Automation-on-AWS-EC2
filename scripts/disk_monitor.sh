@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#this file script iis wript for check disk 
+#this file script iis wript for check disk health
+
 THRESHOLD=80
 DISK_USAGE=$(df / | tail -n1 | awk '{print $5}'| cut -d % -f 1)
 
