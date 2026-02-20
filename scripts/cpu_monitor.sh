@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# this script is used for check cpu health 
+
 THRESHOLD=80
 CPU_USAGE=$(top -bn1 | grep "Cpu(s)" | awk '{print $8}')
 
