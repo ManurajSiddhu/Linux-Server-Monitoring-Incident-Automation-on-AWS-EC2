@@ -13,6 +13,7 @@ This project monitors a Linux server's health by checking CPU, memory, disk usag
 ## PROJECT STRUCTURE
 
 ---
+```bash 
 linux-server-monitoring/
 ├── scripts/
 │   ├── cpu_monitor.sh
