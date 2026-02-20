@@ -12,6 +12,7 @@ This project monitors a Linux server's health by checking CPU, memory, disk usag
 
 ## PROJECT STRUCTURE
 
+---
 linux-server-monitoring/
 ├── scripts/
 │   ├── cpu_monitor.sh
@@ -31,3 +32,4 @@ linux-server-monitoring/
 │   └── cron_job.txt
 │
 └── README.md
+---
