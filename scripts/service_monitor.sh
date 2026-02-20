@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #this script perform check service status task
+#let take a service which is ssh
 
 SERVICE="sshd"
 DATE=$(date "+%Y-%m-%d %H:%M:%S")
